@@ -244,6 +244,7 @@ p{
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     color: #626262;
+    transition: .5s;
 }
 #button div button:hover{
     background-color: #626262;
@@ -287,6 +288,7 @@ footer{
     color: #000000;
     display: block;
     margin: 0px 9.5px;
+    transition: .5s;
 }
 .terms ul li a:hover, .icons ul li a:hover{
     background-color: #626262;
