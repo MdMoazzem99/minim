@@ -181,7 +181,7 @@ span{
     font-family: 'Ubuntu', sans-serif;
     color: #b4ad9e;
 }
-h1{
+h2{
     font-size: 30px;
     font-family: 'Playfair Display', serif;
     color: #626262;
@@ -220,11 +220,38 @@ p{
     margin-top: 125px;
     padding: 73px 0px;
 }
-#newsletter h2{
+.signup{
+    text-align: center;
+}
+.signup h3{
     font-size: 30px;
     font-family: 'Playfair Display', serif;
     color: #333333;
-    text-align: center;
+}
+.signup div{
+    width: 450px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    margin: 84px auto;
+}
+.signup div input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 400px;
+    font-size: 14px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    padding: 0px 3px 14px;
+    outline: none;
+}
+.signup div button{
+    border: none;
+    background: transparent;
+    position: absolute;
+    bottom: 10px;
+    right: 16px;
 }
 /*newsletter end*/
 /*button start*/
@@ -244,7 +271,7 @@ p{
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     color: #626262;
-    transition: .5s;
+	transition: .5s;
 }
 #button div button:hover{
     background-color: #626262;
