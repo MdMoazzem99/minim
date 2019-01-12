@@ -337,6 +337,7 @@ footer{
 .icons ul li:nth-child(3) a:hover{
     background-color: transparent;
     color: #1DA1F2;
+    border:none;
 }
 .icons ul li:last-child a{
     margin-right: 0px;
