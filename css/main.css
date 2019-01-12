@@ -330,17 +330,17 @@ footer{
 }
 /*terms ul li a end*/
 /*icons ul li a start*/
+.icons ul li:nth-child(2) a:hover, .icons ul li:nth-child(3) a:hover, .icons ul li:last-child a:hover{
+    border-left:none;
+    border-right:none;
+}
 .icons ul li:nth-child(2) a:hover{
     background-color: #3B5998;
     color: #FFFFFF;
-    border-left:none;
-    border-right:none;
 }
 .icons ul li:nth-child(3) a:hover{
     background-color: transparent;
     color: #1DA1F2;
-    border-left:none;
-    border-right:none;
 }
 .icons ul li:last-child a{
     margin-right: 0px;
@@ -349,8 +349,6 @@ footer{
     background-color: #E32E56;
     border-radius: 5px;
     color: #FFFFFF;
-    border-left:none;
-    border-right:none;
 }
 /*icons ul li a end*/
 /* ==========================================================================
