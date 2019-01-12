@@ -159,8 +159,8 @@ header{
 }
 .menu ul li a:hover{
     color: #000000;
-    font-size: 13px;
-    margin:0px 1px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
 /*menu end*/
 /*bannar start*/
@@ -319,8 +319,9 @@ footer{
     transition: .5s;
 }
 .terms ul li a:hover, .icons ul li a:hover{
-    background-color: #626262;
-    color: white;
+    color: #626262;
+    border-left: 1px solid;
+    border-right: 1px solid;
 }
 /*icons and terms end*/
 /*terms ul li a start*/
