@@ -333,6 +333,8 @@ footer{
 .icons ul li:nth-child(2) a:hover{
     background-color: #3B5998;
     color: #FFFFFF;
+    border-left:none;
+    border-right:none;
 }
 .icons ul li:nth-child(3) a:hover{
     background-color: transparent;
@@ -347,6 +349,8 @@ footer{
     background-color: #E32E56;
     border-radius: 5px;
     color: #FFFFFF;
+    border-left:none;
+    border-right:none;
 }
 /*icons ul li a end*/
 /* ==========================================================================
